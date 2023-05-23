@@ -2,13 +2,13 @@ name: Request a guide
 description: Use this form to request new guides for any new trading partner, and we’ll
   add them to the catalog for free. If you provide us with the PDFs, we typically
   can add them to the catalog within 48 hours.
-title: '[GUIDE] Company name'
+title: "[GUIDE] Company name"
 body:
-  - type: markdown
+- type: markdown
     attributes:
       value: |
         Thanks for taking the time to fill out this request!
- - type: input
+- type: input
     id: contact
     attributes:
       label: Contact Details
@@ -16,21 +16,21 @@ body:
       placeholder: ex. email@example.com
     validations:
       required: true
-  - type: input
+- type: input
     id: company-name
     attributes:
       label: Company name
       placeholder: Tell us what's the name of the company you'd like us to add to the EDI Guide Catalog
     validations:
       required: true
-  - type: input
+- type: input
     id: edi-specifications
     attributes:
       label: EDI Specifications
       description: Please provide a link to the EDI Specs or upload the PDFs
     validations:
       required: false
-  - type: textarea
+- type: textarea
     id: details
     attributes:
       label: Details
