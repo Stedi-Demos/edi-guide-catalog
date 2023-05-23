@@ -12,7 +12,8 @@ body:
   - type: input
     attributes:
       label: Company name
-      placeholder: Tell us what's the name of the company you'd like us to add to the EDI Guide Catalog
+      description: Tell us what's the name of the company you'd like us to add to the EDI Guide Catalog
+      placeholder: Acme Inc.
   - type: input
     attributes:
       label: EDI Specifications
