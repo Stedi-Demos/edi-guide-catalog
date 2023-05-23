@@ -4,9 +4,6 @@ description: Use this form to request new guides for any new trading partner, an
   add them to the catalog for free. If you provide us with the PDFs, we typically
   can add them to the catalog within 48 hours.
 title: '[GUIDE] Company name'
-
----
-
 body:
   - type: markdown
     attributes:
