@@ -3,20 +3,21 @@ name: Request a guide
 about: Use this form to request new guides for any new trading partner, and we’ll
   add them to the catalog for free. If you provide us with the PDFs, we typically
   can add them to the catalog within 48 hours.
-title: ''
+title: '[GUIDE] Company name'
 labels: ''
 assignees: ''
 
 ---
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+**Contact details**
+How can we get in touch with you if we need more info?
+Example: `example@example.com`
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+**Company name**
+Tell us what's the name of the company you'd like us to add to the EDI Guide Catalog.
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
+**EDI Specifications**
+Please provide a link to the EDI Specs or upload the PDFs.
 
 **Additional context**
-Add any other context or screenshots about the feature request here.
+If you have any questions or context to add, please let us know.
