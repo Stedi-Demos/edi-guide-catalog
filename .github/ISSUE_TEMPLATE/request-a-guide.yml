@@ -1,23 +1,43 @@
 ---
 name: Request a guide
-about: Use this form to request new guides for any new trading partner, and we’ll
+description: Use this form to request new guides for any new trading partner, and we’ll
   add them to the catalog for free. If you provide us with the PDFs, we typically
   can add them to the catalog within 48 hours.
 title: '[GUIDE] Company name'
-labels: ''
-assignees: ''
 
 ---
 
-**Contact details**
-How can we get in touch with you if we need more info?
-Example: `example@example.com`
-
-**Company name**
-Tell us what's the name of the company you'd like us to add to the EDI Guide Catalog.
-
-**EDI Specifications**
-Please provide a link to the EDI Specs or upload the PDFs.
-
-**Additional context**
-If you have any questions or context to add, please let us know.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this request!
+ - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: true
+  - type: input
+    id: company-name
+    attributes:
+      label: Company name
+      placeholder: Tell us what's the name of the company you'd like us to add to the EDI Guide Catalog
+    validations:
+      required: true
+  - type: input
+    id: edi-specifications
+    attributes:
+      label: EDI Specifications
+      description: Please provide a link to the EDI Specs or upload the PDFs
+    validations:
+      required: false
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: If you have any questions or context to add, please let us know
+    validations:
+      required: false
