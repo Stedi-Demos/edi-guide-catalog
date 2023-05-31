@@ -5,4 +5,5 @@ Unlike traditional PDF or CSV implementation guides, Stedi guides capture EDI re
 
 You can create private guides for free and use them with [Stedi Core](https://www.stedi.com/docs/core) to validate, translate, and generate EDI documents. You can also [make your guides public](https://www.stedi.com/docs/guides/public-guides) to share them with trading partners.
 
-Need a different guide? Use [this form](https://github.com/Stedi-Demos/edi-guide-catalog/issues/new?assignees=&labels=&projects=&template=request-a-guide.yml&title=%5BGUIDE%5D+Company+name) to request new guides for any new trading partner, and we’ll add them to the catalog for free. If you provide us with the PDFs, we typically can add them to the catalog within 48 hours.
+### Need a different guide? 
+Use [this form](https://github.com/Stedi-Demos/edi-guide-catalog/issues/new?assignees=&labels=&projects=&template=request-a-guide.yml&title=%5BGUIDE%5D+Company+name) to request new guides for any new trading partner, and we’ll add them to the catalog for free. If you provide us with the PDFs, we typically can add them to the catalog within 48 hours.
